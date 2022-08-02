@@ -1,4 +1,5 @@
 defmodule Servy.PledgeController do
+
   def create(conv, %{"name" => name, "amount" => amount}) do
     # Sends the pledge to the external service and caches it
     Servy.PledgeServer.create_pledge(name, String.to_integer(amount))
