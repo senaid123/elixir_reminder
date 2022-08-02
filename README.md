@@ -1,6 +1,9 @@
 # Servy
 
-**TODO: Add description**
+**Small elixir app from pragmatic studio course named Developing with Elixir/OTP**
+
+
+
 
 ## Installation
 
